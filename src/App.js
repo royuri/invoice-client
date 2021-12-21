@@ -24,6 +24,7 @@ function App() {
       <BrowserRouter>
       <SnackbarProvider>
      {user && <NavBar />} 
+    
       <Header />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -43,6 +44,7 @@ function App() {
         <Footer />
         </SnackbarProvider>
       </BrowserRouter>
+
     </div>
   );
 }
